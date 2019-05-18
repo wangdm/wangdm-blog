@@ -11,25 +11,21 @@
 
 	<artifactId>blog-dashboard</artifactId>
 
-	<properties>
-		<docker.image.prefix>registry.wangdm.cn/wangdm</docker.image.prefix>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>cn.wangdm</groupId>
 			<artifactId>account-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>cn.wangdm.blog</groupId>
-			<artifactId>blog-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${wangdm.framework.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>cn.wangdm</groupId>
 			<artifactId>file-common</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${wangdm.framework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.wangdm.blog</groupId>
+			<artifactId>blog-common</artifactId>
+			<version>${wangdm.blog.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

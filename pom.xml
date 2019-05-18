@@ -16,6 +16,12 @@
 	<name>Wangdm-Blog</name>
 	<description>Personal Blog System</description>
 
+	<properties>
+		<wangdm.framework.version>0.0.1-SNAPSHOT</wangdm.framework.version>
+		<wangdm.blog.version>${project.version}</wangdm.blog.version>
+		<docker.image.prefix>registry.wangdm.cn/wangdm</docker.image.prefix>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
